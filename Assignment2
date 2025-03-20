@@ -1,0 +1,80 @@
+using System;
+
+namespace CalculatorApp
+{
+    internal class Program
+    {
+        static void DisplayMenu()
+        {
+            Console.WriteLine("Select an operation:");
+            Console.WriteLine("1 - Addition");
+            Console.WriteLine("2 - Subtraction");
+            Console.WriteLine("3 - Multiplication");
+            Console.WriteLine("4 - Division");
+            Console.WriteLine("5 - Percentage");
+            Console.WriteLine("6 - Exit");
+        }
+
+        static void PerformOperation(int choice, double num1, double num2)
+        {
+            switch (choice)
+            {
+                case 1:
+                    Console.WriteLine($"Result: {num1 + num2}");
+                    break;
+                case 2:
+                    Console.WriteLine($"Result: {num1 - num2}");
+                    break;
+                case 3:
+                    Console.WriteLine($"Result: {num1 * num2}");
+                    break;
+                case 4:
+                    if (num2 != 0)
+                        Console.WriteLine($"Result: {num1 / num2}");
+                    else
+                        Console.WriteLine("Error: Division by zero is not allowed.");
+                    break;
+                case 5:
+                    if (num1 != 0)
+                        Console.WriteLine($"Percentage: {(num2 / num1) * 100}%");
+                    else
+                        Console.WriteLine("Error: Total value cannot be zero.");
+                    break;
+            }
+        }
+
+        static double GetInput(string message)
+        {
+            double value;
+            Console.Write(message);
+            while (!double.TryParse(Console.ReadLine(), out value))
+            {
+                Console.WriteLine("Invalid input. Please enter a valid number.");
+                Console.Write(message);
+            }
+            return value;
+        }
+
+        static void Main()
+        {
+            int choice;
+            do
+            {
+                DisplayMenu();
+                Console.Write("Enter your choice: ");
+                if (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > 6)
+                {
+                    Console.WriteLine("Invalid choice. Please enter a number between 1 and 6.");
+                    continue;
+                }
+
+                if (choice == 6)
+                    break;
+
+                double num1 = GetInput("Enter first number: ");
+                double num2 = GetInput("Enter second number: ");
+                PerformOperation(choice, num1, num2);
+            } while (true);
+        }
+    }
+}

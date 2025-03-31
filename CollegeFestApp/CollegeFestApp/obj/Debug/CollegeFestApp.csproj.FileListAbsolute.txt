@@ -1,0 +1,10 @@
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\obj\Debug\CollegeFestApp.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\obj\Debug\CollegeFestApp.Form1.resources
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\obj\Debug\CollegeFestApp.Properties.Resources.resources
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\obj\Debug\CollegeFestApp.csproj.GenerateResource.cache
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\obj\Debug\CollegeFestApp.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\bin\Debug\CollegeFestApp.exe.config
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\bin\Debug\CollegeFestApp.exe
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\bin\Debug\CollegeFestApp.pdb
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\obj\Debug\CollegeFestApp.exe
+C:\Users\user\source\repos\CollegeFestApp\CollegeFestApp\obj\Debug\CollegeFestApp.pdb

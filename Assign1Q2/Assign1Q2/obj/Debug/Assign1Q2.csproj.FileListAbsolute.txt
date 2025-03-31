@@ -1,0 +1,7 @@
+C:\Users\user\source\repos\Assign1Q2\Assign1Q2\obj\Debug\Assign1Q2.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Assign1Q2\Assign1Q2\obj\Debug\Assign1Q2.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Assign1Q2\Assign1Q2\bin\Debug\Assign1Q2.exe.config
+C:\Users\user\source\repos\Assign1Q2\Assign1Q2\bin\Debug\Assign1Q2.exe
+C:\Users\user\source\repos\Assign1Q2\Assign1Q2\bin\Debug\Assign1Q2.pdb
+C:\Users\user\source\repos\Assign1Q2\Assign1Q2\obj\Debug\Assign1Q2.exe
+C:\Users\user\source\repos\Assign1Q2\Assign1Q2\obj\Debug\Assign1Q2.pdb
